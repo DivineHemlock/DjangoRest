@@ -2,6 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("get", views.api_home),
-    path("post", views.post_data)
+    path('<str:title>', views.ProductDetailAPIview.as_view())
 ]
