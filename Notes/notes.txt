@@ -16,3 +16,7 @@ after a model is defined run :
 
 python manage.py makemigrations
 python manage.py migrate
+
+#5
+
+if the endpoint in browser return an error while postman works fine, install rest_framework in settings
